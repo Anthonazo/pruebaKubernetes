@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.31.2 (a92241f79)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: wildfly
+  name: wildfly
+spec:
+  ports:
+    - name: "8080"
+      port: 8080
+      targetPort: 8080
+    - name: "9990"
+      port: 9990
+      targetPort: 9990
+  selector:
+    io.kompose.service: wildfly
+status:
+  loadBalancer: {}
