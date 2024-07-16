@@ -1,0 +1,7 @@
+ed\edu\ups\prueba64\services\UniversidadesService.class
+ed\edu\ups\prueba64\dao\UniversidadesDAO.class
+ed\edu\ups\prueba64\bussines\GestionUniversidades.class
+ed\edu\ups\prueba64\services\PathBase.class
+ed\edu\ups\prueba64\bussines\GestionDatos.class
+ed\edu\ups\prueba64\model\Universidades.class
+ed\edu\ups\prueba64\services\ErrorMessage.class
